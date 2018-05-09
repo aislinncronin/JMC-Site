@@ -12,7 +12,11 @@
 
 .nav-links {
   margin: auto;
-  margin-left: 15px;
-  margin-right: 40px;
+  margin-left: 22px;
+  margin-right: 23px;
   margin-top: 30px;
+}
+
+.nav-links-box:hover {
+  border-bottom: 2px solid grey;
 }

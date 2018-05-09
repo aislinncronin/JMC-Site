@@ -24551,7 +24551,12 @@ var Contact = function Contact() {
             { className: "bold" },
             "Phone:"
           ),
-          "  (917) 559-4047"
+          _react2.default.createElement(
+            "a",
+            { href: "tel:19175594047",
+              className: "clickable" },
+            " (917) 559-4047"
+          )
         ),
         _react2.default.createElement(
           "div",
@@ -24571,7 +24576,12 @@ var Contact = function Contact() {
             { className: "bold" },
             "Email:"
           ),
-          " info@jmcstonemaintenance.com"
+          _react2.default.createElement(
+            "a",
+            { href: "mailto:info@jmcstonemaintenance.com",
+              className: "clickable" },
+            "  info@jmcstonemaintenance.com"
+          )
         )
       )
     )
@@ -24619,12 +24629,22 @@ var Footer = function Footer() {
       _react2.default.createElement(
         'span',
         null,
-        '(917) 559-4047'
+        _react2.default.createElement(
+          'a',
+          { href: 'tel:19175594047',
+            className: 'clickable' },
+          ' (917) 559-4047'
+        )
       ),
       _react2.default.createElement(
         'span',
         null,
-        'info@jmcstonemaintenance.com'
+        _react2.default.createElement(
+          'a',
+          { href: 'mailto:info@jmcstonemaintenance.com',
+            className: 'clickable' },
+          '  info@jmcstonemaintenance.com'
+        )
       )
     )
   );
@@ -24681,7 +24701,7 @@ var JobsIndex = function JobsIndex() {
           _react2.default.createElement(
             'div',
             { className: 'center-text job-title' },
-            'Granite Countertops'
+            'Terrazzo Lobby Floor'
           ),
           _react2.default.createElement(
             'div',
@@ -24700,17 +24720,8 @@ var JobsIndex = function JobsIndex() {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'center' },
-                _react2.default.createElement(
-                  'div',
-                  null,
-                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before1.png' })
-                ),
-                _react2.default.createElement(
-                  'div',
-                  null,
-                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before2.png' })
-                )
+                null,
+                _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/terazzo-before.png' })
               )
             ),
             _react2.default.createElement(
@@ -24731,12 +24742,12 @@ var JobsIndex = function JobsIndex() {
                 _react2.default.createElement(
                   'div',
                   null,
-                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after1.png' })
+                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after1.png' })
                 ),
                 _react2.default.createElement(
                   'div',
                   null,
-                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after2.png' })
+                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after2.png' })
                 )
               )
             )
@@ -24744,7 +24755,7 @@ var JobsIndex = function JobsIndex() {
           _react2.default.createElement(
             'div',
             { className: 'center-text bottom' },
-            'Restoration of leather-finished granite countertops in downtown Manhattan building.'
+            'Refinishing of this terrazzo lobby floor in a building that is over 100 years old.'
           )
         ),
         _react2.default.createElement(
@@ -24861,7 +24872,7 @@ var JobsIndex = function JobsIndex() {
           _react2.default.createElement(
             'div',
             { className: 'center-text job-title' },
-            'Terrazzo Lobby Floor'
+            'Granite Countertops'
           ),
           _react2.default.createElement(
             'div',
@@ -24880,8 +24891,17 @@ var JobsIndex = function JobsIndex() {
               ),
               _react2.default.createElement(
                 'div',
-                null,
-                _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/terazzo-before.png' })
+                { className: 'center' },
+                _react2.default.createElement(
+                  'div',
+                  null,
+                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before1.png' })
+                ),
+                _react2.default.createElement(
+                  'div',
+                  null,
+                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before2.png' })
+                )
               )
             ),
             _react2.default.createElement(
@@ -24902,12 +24922,12 @@ var JobsIndex = function JobsIndex() {
                 _react2.default.createElement(
                   'div',
                   null,
-                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after1.png' })
+                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after1.png' })
                 ),
                 _react2.default.createElement(
                   'div',
                   null,
-                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after2.png' })
+                  _react2.default.createElement('img', { src: 'https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after2.png' })
                 )
               )
             )
@@ -24915,7 +24935,7 @@ var JobsIndex = function JobsIndex() {
           _react2.default.createElement(
             'div',
             { className: 'center-text bottom' },
-            'Refinishing of this terrazzo lobby floor in a building that is over 100 years old.'
+            'Restoration of leather-finished granite countertops in downtown Manhattan building.'
           )
         )
       )
@@ -24971,7 +24991,7 @@ var NavBar = function NavBar() {
       { className: 'nav-bar-right' },
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: '/about' },
+        { to: '/about', className: 'nav-links-box' },
         _react2.default.createElement(
           'div',
           { className: 'nav-links' },
@@ -24980,7 +25000,7 @@ var NavBar = function NavBar() {
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: '/jobs' },
+        { to: '/jobs', className: 'nav-links-box' },
         _react2.default.createElement(
           'div',
           { className: 'nav-links' },
@@ -24989,7 +25009,7 @@ var NavBar = function NavBar() {
       ),
       _react2.default.createElement(
         _reactRouterDom.Link,
-        { to: '/contact' },
+        { to: '/contact', className: 'nav-links-box' },
         _react2.default.createElement(
           'div',
           { className: 'nav-links' },
@@ -25213,7 +25233,12 @@ var Splash = function Splash() {
         _react2.default.createElement(
           'div',
           { className: 'splash-number' },
-          '(917) 559-4047'
+          _react2.default.createElement(
+            'a',
+            { href: 'tel:19175594047',
+              className: 'clickable' },
+            '(917) 559-4047'
+          )
         )
       )
     ),

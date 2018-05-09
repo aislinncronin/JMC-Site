@@ -11,19 +11,14 @@ const JobsIndex = () => {
       <div className="center">
         <div>
           <div className="job">
-            <div className="center-text job-title">Granite Countertops</div>
+            <div className="center-text job-title">Terrazzo Lobby Floor</div>
               <div className="center">
                 <div className="before">
                   <div>
                     <div className="center-text job-title">Before</div>
                   </div>
-                  <div className="center">
-                    <div>
-                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before1.png"></img>
-                    </div>
-                    <div>
-                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before2.png"></img>
-                    </div>
+                  <div>
+                    <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/terazzo-before.png"></img>
                   </div>
                 </div>
                 <div>
@@ -32,15 +27,15 @@ const JobsIndex = () => {
                   </div>
                   <div className="center">
                     <div>
-                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after1.png"></img>
+                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after1.png"></img>
                     </div>
                     <div>
-                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after2.png"></img>
+                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after2.png"></img>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="center-text bottom">Restoration of leather-finished granite countertops in downtown Manhattan building.</div>
+              <div className="center-text bottom">Refinishing of this terrazzo lobby floor in a building that is over 100 years old.</div>
           </div>
           <div className="job">
             <div className="center-text job-title">Marble Shower Restoration</div>
@@ -88,14 +83,19 @@ const JobsIndex = () => {
               <div className="center-text bottom">Restoration of old marble floors.</div>
           </div>
           <div className="job">
-            <div className="center-text job-title">Terrazzo Lobby Floor</div>
+            <div className="center-text job-title">Granite Countertops</div>
               <div className="center">
                 <div className="before">
                   <div>
                     <div className="center-text job-title">Before</div>
                   </div>
-                  <div>
-                    <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/terazzo-before.png"></img>
+                  <div className="center">
+                    <div>
+                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before1.png"></img>
+                    </div>
+                    <div>
+                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-before2.png"></img>
+                    </div>
                   </div>
                 </div>
                 <div>
@@ -104,15 +104,15 @@ const JobsIndex = () => {
                   </div>
                   <div className="center">
                     <div>
-                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after1.png"></img>
+                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after1.png"></img>
                     </div>
                     <div>
-                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/terrazzo-after2.png"></img>
+                      <img src="https://s3.us-east-2.amazonaws.com/johnmc-site/granite-after2.png"></img>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="center-text bottom">Refinishing of this terrazzo lobby floor in a building that is over 100 years old.</div>
+              <div className="center-text bottom">Restoration of leather-finished granite countertops in downtown Manhattan building.</div>
           </div>
         </div>
       </div>

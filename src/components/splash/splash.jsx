@@ -18,7 +18,8 @@ const Splash = () => {
             Proudly serving Yonkers, NY and the surrounding area since 1995
           </div>
           <div className="splash-text-small">Give us a call today!</div >
-            <div className="splash-number">(917) 559-4047</div>
+            <div className="splash-number"><a href="tel:19175594047"
+              className="clickable">(917) 559-4047</a></div>
           </div>
         </div>
         <Services />
