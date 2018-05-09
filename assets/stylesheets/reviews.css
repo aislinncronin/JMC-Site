@@ -1,0 +1,22 @@
+.review-header {
+  display: flex;
+  justify-content: center;
+}
+
+.review {
+  width: 25%;
+  margin: 30px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.review-author {
+  font-style: italic;
+  margin-top: 8px;
+  margin-left: 30px;
+}

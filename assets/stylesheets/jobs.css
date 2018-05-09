@@ -1,0 +1,40 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.job-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.job img {
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.before {
+  margin-right: 100px;
+}
+
+.bottom {
+  margin-bottom: 30px;
+}
+
+.bold {
+  font-size:20px;
+  margin-top: 8px;
+}
+
+.pad {
+  margin-top: 5px;
+}
+
+.contact {
+  margin-bottom: 30px;
+}

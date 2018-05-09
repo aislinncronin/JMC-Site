@@ -1,0 +1,42 @@
+.background {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/marble.jpg");
+  height: 80vh;
+  width: auto;
+  padding-top: 10vh;
+
+}
+
+.text-container {
+  height: 350px;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 5px;
+}
+
+.splash-text {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.splash-text-small {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.splash-text-italics {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.splash-number {
+  font-size: 20px;
+  margin-top: 5px;
+}

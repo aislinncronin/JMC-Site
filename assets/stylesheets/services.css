@@ -1,0 +1,9 @@
+.service-head {
+  display: flex;
+  justify-content: center;
+
+}
+
+.service-list {
+  font-size: 20px;
+}
