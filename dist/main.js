@@ -24471,49 +24471,53 @@ var Contact = function Contact() {
       "div",
       { className: "contact" },
       _react2.default.createElement(
-        "h1",
-        null,
-        "CONTACT US"
-      ),
-      _react2.default.createElement(
         "div",
-        { className: "job-title" },
-        "JMC Stone Maintenance"
-      ),
-      _react2.default.createElement(
-        "div",
-        null,
-        "Yonkers, NY 10704"
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "pad" },
+        { className: "contact-container" },
         _react2.default.createElement(
-          "span",
-          { className: "bold" },
-          "Phone:"
+          "h1",
+          { className: "contact-title" },
+          "CONTACT US"
         ),
-        "  (917) 559-4047"
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "pad" },
         _react2.default.createElement(
-          "span",
-          { className: "bold" },
-          "Fax:"
+          "div",
+          { className: "job-title" },
+          "JMC Stone Maintenance"
         ),
-        " (212) 305-3756"
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "pad" },
         _react2.default.createElement(
-          "span",
-          { className: "bold" },
-          "Email:"
+          "div",
+          null,
+          "Yonkers, NY 10704"
         ),
-        " info@jmcstonemaintenance.com"
+        _react2.default.createElement(
+          "div",
+          { className: "pad" },
+          _react2.default.createElement(
+            "span",
+            { className: "bold" },
+            "Phone:"
+          ),
+          "  (917) 559-4047"
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "pad" },
+          _react2.default.createElement(
+            "span",
+            { className: "bold" },
+            "Fax:"
+          ),
+          " (212) 305-3756"
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "pad" },
+          _react2.default.createElement(
+            "span",
+            { className: "bold" },
+            "Email:"
+          ),
+          " info@jmcstonemaintenance.com"
+        )
       )
     )
   );
@@ -24606,7 +24610,7 @@ var JobsIndex = function JobsIndex() {
       { className: 'center' },
       _react2.default.createElement(
         'h1',
-        null,
+        { className: 'color' },
         'Previous Work'
       )
     ),

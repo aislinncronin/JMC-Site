@@ -36,5 +36,16 @@
 }
 
 .contact {
-  margin-bottom: 30px;
+  height: 70vh;
+}
+
+.contact-title {
+  color: #20B2AA;
+  font-size: 50px;
+  margin-bottom: 5px;
+  padding-right:0px;
+}
+
+.contact-container {
+  padding-top: 40%;
 }
