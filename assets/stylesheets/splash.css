@@ -1,7 +1,7 @@
 .background {
   display: flex;
   justify-content: center;
-  background-image: url("../images/marble.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/johnmc-site/marble2.jpg");
   height: 80vh;
   width: auto;
   padding-top: 10vh;

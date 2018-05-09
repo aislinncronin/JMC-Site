@@ -22,3 +22,20 @@
 a {
   text-decoration: none;
 }
+
+.about-content {
+ text-align: center;
+ padding-left: 5%;
+ padding-right: 10%;
+ margin-bottom: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  margin-bottom: 100px;
+  margin-left: 150px;
+}

@@ -24417,6 +24417,10 @@ var _contact = __webpack_require__(/*! ./components/contact/contact */ "./src/co
 
 var _contact2 = _interopRequireDefault(_contact);
 
+var _about = __webpack_require__(/*! ./components/about/about */ "./src/components/about/about.jsx");
+
+var _about2 = _interopRequireDefault(_about);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
@@ -24432,6 +24436,7 @@ var App = function App() {
         null,
         _react2.default.createElement(_reactRouterDom.Route, { path: '/jobs', component: _jobs_index2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _contact2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _about2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _splash2.default })
       ),
       _react2.default.createElement(_footer2.default, null)
@@ -24440,6 +24445,56 @@ var App = function App() {
 };
 
 exports.default = App;
+
+/***/ }),
+
+/***/ "./src/components/about/about.jsx":
+/*!****************************************!*\
+  !*** ./src/components/about/about.jsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var About = function About() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "div",
+      { className: "center" },
+      _react2.default.createElement(
+        "h1",
+        { className: "color" },
+        "About Us"
+      )
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "flex" },
+      _react2.default.createElement("img", { src: "https://s3.us-east-2.amazonaws.com/johnmc-site/placeholder.jpg", className: "about-image" }),
+      _react2.default.createElement(
+        "div",
+        { className: "about-content" },
+        "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah"
+      )
+    )
+  );
+};
+
+exports.default = About;
 
 /***/ }),
 

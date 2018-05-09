@@ -6,6 +6,7 @@ import Footer from './components/footer/footer';
 import JobsIndex from './components/jobs/jobs_index';
 import Review from './components/reviews/reviews';
 import Contact from './components/contact/contact';
+import About from './components/about/about';
 import { Route, Switch } from "react-router-dom";
 
 
@@ -16,6 +17,7 @@ const App = () => (
         <Switch>
           <Route path="/jobs" component={JobsIndex}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/about" component={About} />
           <Route path="/" component={Splash} />
         </Switch>
       <Footer />
