@@ -39,7 +39,7 @@ const About = () => {
                 <ul className="bullets">Slate</ul>
                 <ul className="bullets">Brick</ul>
                 <ul className="bullets">Pavers</ul>
-                <ul className="bullets">Terazzo</ul>
+                <ul className="bullets">Terrazzo</ul>
                 <ul className="bullets">Other Stone</ul>
               </div>
               <div className="about-content">

@@ -15,7 +15,7 @@ const Splash = () => {
             Natural stone restoration services
           </div>
           <div className="splash-text-italics">
-            Proudly serving Yonkers, NY and the surrounding area since 1995
+            Proudly serving NYC, Westchester and the tri-state area since 1995
           </div>
           <div className="splash-text-small">Give us a call today!</div >
             <div className="splash-number"><a href="tel:19175594047"
